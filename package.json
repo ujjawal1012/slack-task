@@ -1,0 +1,21 @@
+{
+  "name": "slack-task",
+  "version": "1.0.0",
+  "main": "send.js",
+  "type": "module",
+  "scripts": {
+    "send": "node send.js",
+    "schedule": "node schedule.js",
+    "history": "node history.js",
+    "update": "node update.js",
+    "delete": "node delete.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@slack/web-api": "^7.10.0",
+    "dotenv": "^17.2.3"
+  }
+}
